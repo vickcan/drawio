@@ -1,0 +1,53 @@
+
+
+mws_measure_type
+parent_id
+type_name
+type_value
+type_remark
+
+mws_measure_item
+type_id
+remark
+create_time
+create_by
+update_by
+update_time
+
+
+mws_measure_record
+item_id
+measure_value
+create_time
+create_by
+update_by
+update_time
+
+
+USL:Upper Spec limit(规格上限）；LSL:Lower spec limit(规格下限）；UCL:Upper Control Limit（管控上线）；LCL:Lower Control Limit（管控下线）；CL:Center line(管制中心线)
+USL是规格上限；LSL是规格下限；
+UCL是控制上限；LCL是控制下限；
+CL是中心线！
+
+
+测量值
+规格上限
+规格下限
+均值
+CPK
+CP
+
+{
+  "data": {
+    "9/1":12,
+    "9/2":11,
+    "9/3":15
+  },
+  "statistics": {
+    "usl": 2,
+    "cl":1,
+    "lsl": 2,
+    "cpk": 2,
+    "cp": 122
+  }
+}
